@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Press Start 2P'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CookieCollab - MAKE WORK A LITTLE SWEETER</title>
+  <link rel="icon" type="image/x-icon" href="./images/Cookie.svg">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/promotion.css">
+  <script src="https://kit.fontawesome.com/cb2a5e48ee.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+
+
+<body class="webpage">
+
+
+
+  <header class="header">
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="./images/Cookie_Collab_Logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="ueber uns.html">Über uns</a></li>
+      <li><a href="promotion.html">Promotion</a></li>
+    </ul>
+  </header>
+
+
+
+  <!-- Startpage start -->
+  <div class="start-section">
+
+    <video class="background-video" autoplay="" loop="" muted="">
+      <source src="videos/Retro_Wave_Plain.mp4" type="video/mp4">
+      Ihr Browser unterstützt das Video nicht.
+    </video>
+
+    <div class="background-image">
+      <img src="./images/Frame2.png" alt="">
+    </div>
+
+    <div class="overlay">
+      <div class="border-box">
+
+        <div class="logo-container">
+          <img src="./images/Cookie_Collab_Logo.png" alt="Logo">
+        </div>
+
+        <div class="text">
+          <h1>Promotion</h1>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- motivation  -->
+  <section class="motivation">
+    <div class="motivation-container">
+      <h2>Wettbewerb</h2>
+      <p>Winner Winner Chicken dinner! Gewinne ein Deluxe-Cookie-Paket und kostenlose Co-Working-Zeit im CookieCollab. Um teilzunehmen, musst du einfach das Formular unten ausfüllen und absenden.
+<br> <br>Erreiche 100 Punkte, um einen Preis zu gewinnen.
+ 
+
+<br> <br> <strong>Teilnahmeschluss 10.07.2023</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- Formular -->
+  <div class="content">
+    <div id="formContainer">
+      <h2>Fülle alle Felder aus.</h2>
+  
+      <form id="form">
+        <div class="form-row">
+          <input type="text" id="firstname" placeholder="Vorname eingeben">
+          <input type="text" id="name" placeholder="Name eingeben">
+        </div>
+        <div class="form-row">
+          <input type="email" id="email" placeholder="Email eingeben">
+          <input type="tel" id="phone" placeholder="Telefonnummer eingeben">
+        </div>
+        <div class="error-messages">
+          <div id="email-error-message"></div>
+          <div id="phone-error-message"></div>
+        </div>
+        <textarea id="message" placeholder="Nachricht eingeben"></textarea>
+        <input type="submit" id="submit" value="Jetzt teilnehmen">
+      </form>
+    </div>
+  </div>
+  
+  
+  
+
+<div id="gamecontainer" class="hidden">
+
+    <div class="game-info">
+        Klicke, um zu springen.<br />
+        Weiche den Steinen aus.<br />
+        Erreiche 100 Punkte, um einen Preis zu gewinnen.
+    </div>
+
+    <div id="game">
+        <div id="game-start">
+            <div class="startScreenText">
+                Klicke, um das Spiel zu starten.
+            </div>
+        </div>
+        <div id="game-background"></div>
+        <div id="game-dino"></div>
+        <div id="game-rock"></div>
+        <div id="game-score">0</div>
+    </div>
+
+    <div id="game-end" class="hidden">
+        <div id="game-winner" class="hidden">
+            ⭐ ⭐ ⭐ Glückwunsch ⭐ ⭐ ⭐ <br />
+            Du hast mehr als 100 Punkte erzielt.
+            Wir benachrichtigen dich über deinen Gewinn via Email.
+        </div>
+        Das Spiel ist zu Ende.<br />
+        Klicke auf das Spiel, um erneut zu spielen.
+    </div>
+</div>
+</div>
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="footer-left">
+      <p>Made by: CookieCollab Yannis und Timo</p>
+    </div>
+
+    <div class="footer-middle">
+      Dies ist ein Schulprojekt und kein realer Online-Shop.
+    </div>
+
+    <div class="footer-icons">
+      <ul class="menu simple">
+        <li><a href="https://twitter.com/explore"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i> </a></li>
+        <li><a href="https://github.com/timohuber05/AL5_Yannis_Timo/tree/main"><i class="fa-brands fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="./js/databaseClient.js"></script>
+  <script src="./js/form.js"></script>
+  <script src="./js/game.js"></script>
+</body>
+
+
+</html>
