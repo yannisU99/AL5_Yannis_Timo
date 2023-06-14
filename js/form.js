@@ -91,7 +91,10 @@ const onClickSubmit = async () => {
     columns: {
       // "email" Name der Spalte in der SQL Tabelle
       // "emailField.value" Eingabe des Benutzers aus dem Formularfeld
+      first_name: first_name.value,
+      last_name: last_name.value,
       email: emailField.value,
+      phone: phone.value,
     },
   };
   // Speichert die Daten in der Datenbank
