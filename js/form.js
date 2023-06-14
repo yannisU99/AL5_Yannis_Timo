@@ -5,8 +5,8 @@ const submitButton = document.getElementById("submit");
 submitButton.disabled = true;
 const emailField = document.getElementById("email");
 const form = document.getElementById("form");
-const firstname = document.getElementById("firstname");
-const name = document.getElementById("name");
+const first_name = document.getElementById("first_name");
+const last_name = document.getElementById("last_name");
 const phone = document.getElementById("phone");
 const emailErrorMessage = document.getElementById("email-error-message");
 const phoneErrorMessage = document.getElementById("phone-error-message");
@@ -15,10 +15,10 @@ const phoneErrorMessage = document.getElementById("phone-error-message");
 emailField.addEventListener("keyup", () => {
   onChangeEmailField();
 });
-firstname.addEventListener("keyup", () => {
+first_name.addEventListener("keyup", () => {
   onChangeEmailField();
 });
-name.addEventListener("keyup", () => {
+last_name.addEventListener("keyup", () => {
   onChangeEmailField();
 });
 phone.addEventListener("keyup", () => {
@@ -41,8 +41,8 @@ const onChangeEmailField = () => {
 
   if (
     emailField.value === "" ||
-    firstname.value === "" ||
-    name.value === "" ||
+    first_name.value === "" ||
+    last_name.value === "" ||
     phone.value === "" ||
     !isPhoneValid ||
     !isEmailValid
