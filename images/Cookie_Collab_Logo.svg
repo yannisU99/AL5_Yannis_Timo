@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 651.32 150.82">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: #aa7536;
+      }
+
+      .cls-6 {
+        fill: #251b14;
+      }
+
+      .cls-2 {
+        font-size: 73.23px;
+        letter-spacing: .02em;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: PressStart2P-Regular, 'Press Start 2P';
+        mix-blend-mode: screen;
+      }
+
+      .cls-7 {
+        fill: #c1883d;
+      }
+
+      .cls-3 {
+        font-size: 73.16px;
+        letter-spacing: .03em;
+      }
+    </style>
+  </defs>
+  <g class="cls-4">
+    <g id="Ebene_1" data-name="Ebene 1">
+      <text class="cls-2" transform="translate(177.16 73.88)"><tspan x="0" y="0">COOKIE</tspan></text>
+      <text class="cls-3" transform="translate(177.55 159.53)"><tspan x="0" y="0">COLLAB</tspan></text>
+    </g>
+    <g id="Logo">
+      <g>
+        <rect class="cls-7" x="18.94" y="47.54" width="104.51" height="56.49"/>
+        <rect class="cls-7" x="48.16" y="30.61" width="83.31" height="81.36"/>
+        <rect class="cls-7" x="118.54" y="38.2" width="13.14" height="52.01"/>
+        <rect class="cls-7" x="47.02" y="28.47" width="75.24" height="21.41"/>
+        <rect class="cls-7" x="65.87" y="19.41" width="47.06" height="12.48"/>
+        <rect class="cls-7" x="37.6" y="110.84" width="58.02" height="21.29"/>
+        <rect class="cls-7" x="28.36" y="101.59" width="58.02" height="21.29"/>
+        <rect class="cls-7" x="54.91" y="92.38" width="58.02" height="21.29"/>
+        <rect class="cls-7" x="37.6" y="37.92" width="13.14" height="52.29"/>
+      </g>
+      <g id="Ebene_3" data-name="Ebene 3">
+        <g>
+          <rect class="cls-5" x="65.85" y="113.43" width="28.26" height="9.48"/>
+          <rect class="cls-5" x="37.56" y="122.73" width="37.72" height="9.48"/>
+          <rect class="cls-5" x="84.65" y="104.02" width="28.26" height="9.48"/>
+          <rect class="cls-5" x="112.79" y="85.27" width="9.48" height="18.77"/>
+          <rect class="cls-5" x="122.18" y="75.78" width="9.48" height="9.48"/>
+        </g>
+      </g>
+      <g id="Ebene_2" data-name="Ebene 2">
+        <g id="g13110">
+          <path id="rect27720-6" class="cls-1" d="m56.44,9.91h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12987" class="cls-1" d="m47.04,9.91h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12989" class="cls-1" d="m37.63,19.32h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12991" class="cls-1" d="m28.22,28.72h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12993" class="cls-1" d="m18.81,38.13h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12995" class="cls-1" d="m9.41,47.54h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12997" class="cls-1" d="m9.41,56.95h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect12999" class="cls-1" d="m0,66.35h9.41v9.41H0v-9.41Z"/>
+          <path id="rect13001" class="cls-1" d="m0,75.76h9.41v9.41H0v-9.41Z"/>
+          <path id="rect13003" class="cls-1" d="m0,85.17h9.41v9.41H0v-9.41Z"/>
+          <path id="rect13005" class="cls-1" d="m0,94.57h9.41v9.41H0v-9.41Z"/>
+          <path id="rect13007" class="cls-1" d="m9.41,103.98h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13009" class="cls-1" d="m9.41,113.39h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13011" class="cls-1" d="m18.81,122.8h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13013" class="cls-1" d="m37.63,141.61h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13015" class="cls-1" d="m28.22,132.2h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13017" class="cls-1" d="m47.04,141.61h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13019" class="cls-1" d="m56.44,141.61h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13021" class="cls-1" d="m65.85,141.61h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13023" class="cls-1" d="m75.26,141.61h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13025" class="cls-1" d="m84.67,141.61h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13027" class="cls-1" d="m94.07,132.2h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13029" class="cls-1" d="m103.48,132.2h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13031" class="cls-1" d="m112.89,122.8h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13033" class="cls-1" d="m122.3,113.39h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13035" class="cls-1" d="m131.7,103.98h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13037" class="cls-1" d="m141.11,94.57h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13039" class="cls-1" d="m141.11,85.17h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13041" class="cls-1" d="m141.11,75.76h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13043" class="cls-1" d="m141.11,66.35h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13045" class="cls-1" d="m141.11,56.94h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13047" class="cls-1" d="m141.11,47.54h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13049" class="cls-1" d="m141.11,38.13h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13055" class="cls-1" d="m112.89,9.91h9.41v9.41h-9.41v-9.41Z"/>
+          <path id="rect13057" class="cls-1" d="m103.48.5h9.41v9.41h-9.41V.5Z"/>
+          <path id="rect13059" class="cls-1" d="m94.07.5h9.41v9.41h-9.41V.5Z"/>
+          <path id="rect13061" class="cls-1" d="m84.67.5h9.41v9.41h-9.41V.5Z"/>
+          <path id="rect13063" class="cls-1" d="m75.26.5h9.41v9.41h-9.41V.5Z"/>
+          <path id="rect13065" class="cls-1" d="m65.85.5h9.41v9.41h-9.41V.5Z"/>
+        </g>
+        <rect class="cls-1" x="131.67" y="28.72" width="9.41" height="9.48"/>
+        <rect class="cls-1" x="122.27" y="19.24" width="9.41" height="9.48"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="18.83" y="47.54" width="9.4" height="18.83"/>
+        <polygon class="cls-6" points="18.94 104 9.41 103.98 9.41 66.35 18.94 66.37 18.94 104"/>
+        <rect class="cls-6" x="28.22" y="38.06" width="9.41" height="9.48"/>
+        <rect class="cls-6" x="103.45" y="56.99" width="9.41" height="9.48"/>
+        <rect class="cls-6" x="56.44" y="103.98" width="9.41" height="9.48"/>
+        <rect class="cls-6" x="37.63" y="66.24" width="18.82" height="18.85"/>
+        <rect class="cls-6" x="84.64" y="75.74" width="18.82" height="18.85"/>
+        <rect class="cls-6" x="75.23" y="28.63" width="18.82" height="18.85"/>
+        <rect class="cls-6" x="28.36" y="122.73" width="9.41" height="9.48"/>
+        <polygon class="cls-6" points="28.23 122.91 18.81 122.91 18.81 104 28.36 104.03 28.23 122.91"/>
+        <rect class="cls-6" x="112.91" y="103.83" width="9.41" height="18.96"/>
+        <rect class="cls-6" x="103.51" y="113.23" width="9.41" height="18.96"/>
+        <rect class="cls-6" x="94.11" y="113.23" width="9.41" height="18.96"/>
+        <rect class="cls-6" x="75.28" y="122.65" width="18.97" height="18.96"/>
+        <rect class="cls-6" x="37.63" y="28.66" width="9.41" height="9.48"/>
+        <rect class="cls-6" x="112.86" y="19.32" width="9.41" height="9.48"/>
+        <rect class="cls-6" x="122.26" y="28.72" width="9.41" height="9.48"/>
+        <rect class="cls-6" x="37.6" y="132.13" width="37.72" height="9.48"/>
+        <rect class="cls-6" x="122.26" y="85.22" width="9.41" height="28.06"/>
+        <rect class="cls-6" x="131.66" y="38.2" width="9.41" height="65.82"/>
+        <rect class="cls-6" x="47.02" y="19.27" width="18.85" height="9.48"/>
+        <rect class="cls-6" x="65.87" y="9.93" width="47.06" height="9.48"/>
+      </g>
+    </g>
+  </g>
+</svg>

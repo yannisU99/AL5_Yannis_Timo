@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Press Start 2P'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CookieCollab - MAKE WORK A LITTLE SWEETER</title>
+  <link rel="icon" type="image/x-icon" href="./images/Cookie.svg">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://kit.fontawesome.com/cb2a5e48ee.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+
+
+<body class="webpage">
+
+
+
+  <header class="header">
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="./images/Cookie_Collab_Logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="ueber uns.html">Über uns</a></li>
+        <li><a href="promotion.html">Promotion</a></li>
+      </ul>
+  </header>
+
+
+
+  <!-- Startpage start -->
+  <div class="start-section">
+
+    <video class="background-video" autoplay="" loop="" muted="">
+      <source src="videos/Retro_Wave_Plain.mp4" type="video/mp4">
+      Ihr Browser unterstützt das Video nicht.
+    </video>
+
+    <div class="background-image">
+      <img src="./images/Frame2.png" alt="">
+    </div>
+
+    <div class="overlay">
+      <div class="border-box">
+
+        <div class="logo-container">
+          <img src="./images/Cookie_Collab_Logo.png" alt="Logo">
+        </div>
+
+        <div class="text">
+          <h1>MAKE WORK A<br>LITTLE SWEETER</h1>
+          <p>Willkommen bei CookieCollab, dem Ort, an dem du arbeiten und geniessen kannst.<br>Verbinde deine
+            Leidenschaft für Kreativität und Arbeit mit einer Pause an unserer Cookie-Theke.</p>
+        </div>
+
+        <div class="infobutton">
+          <a href="#slider-container" class="infobtn" data-scroll-nav="5">
+            <span>Start</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Slider  -->
+<div class="slider-container" id="slider-container">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="./images/Cookie Bilder/02 Pink-Blue.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./images/Cookie Bilder/Cookie 04.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./images/Cookie Bilder/Effect.png" style="width:100%">
+    </div>
+
+
+    <!-- Code Mithilfe von ChatGPT  -->
+    <!-- Next und previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Dots hinzufügen -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    <!-- Code Mithilfe von ChatGPT ENDE -->
+
+  <script src="./js/index.js"></script>
+
+
+    <ul class="slider-list">
+      <li>
+        <h2>Wieso CookieCollab?</h2>
+      </li>
+      <li><i class="fa-sharp fa-solid fa-check"></i>
+        <p>Einzigartige Cookies</p>
+      </li>
+      <li><i class="fa-sharp fa-solid fa-check"></i>
+        <p>Lokale und faire Produktion</p>
+      </li>
+      <li><i class="fa-sharp fa-solid fa-check"></i>
+        <p>Angenehmer Co-Working Space</p>
+      </li>
+      <li><i class="fa-sharp fa-solid fa-check"></i>
+        <p>Kundenorientierter Service</p>
+      </li>
+
+      <div class="button-container">
+        <a href="#services" class="butn" data-scroll-nav="5">
+          <span>Mehr Infos</span>
+        </a>
+      </div>
+
+    </ul>
+
+  </div>
+
+
+  <!-- Services  -->
+  <section class="services" id="services">
+    <div class="service-container">
+      <h2>Informationen</h2>
+      <p class="subtitle">Hier findest du alle wichtigen Informationen, die du über CookieCollab wissen musst.
+      </p>
+
+      <div class="service-boxes">
+
+        <div class="service-box">
+          <i class="fa-solid fa-laptop"></i>
+          <h3>Co-Working Space</h3>
+          <p>Arbeite in produktiver und inspirierender Arbeitsumgebung mit bequemen Sitzgelegenheiten. </p>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-solid fa-cookie"></i>
+          <h3>Cookie-Sortiment</h3>
+          <p>Von Klassikern bis zu exklusiven Geschmacksrichtungen haben wir für jeden Geschmack etwas im Angebot.</p>
+        </div>
+        <div class="service-box">
+          <i class="fa-solid fa-face-smile"></i>
+          <h3>Ideale Pause</h3>
+          <p>Bist du Student oder Berufstätiger? Geniesse bei uns den perfekten Mix aus Produktivität und Genuss.</p>
+        </div>
+        <div class="service-box">
+          <i class="fa-solid fa-calendar"></i>
+          <h3>Anlässe</h3>
+          <p>Beliebte Wahl für Firmen-Znüni, Kinder-Geburtstage und Give-aways für Hochzeiten und andere Anlässe.</p>
+        </div>
+        <div class="service-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Lokale Produktion</h3>
+          <p>Unsere hausgemachten Cookies werden fair in der Region produziert und mit Liebe frisch gebacken.</p>
+        </div>
+        <div class="service-box">
+          <i class="fa-solid fa-user"></i>
+          <h3>Service</h3>
+          <p>Wir legen grossen Wert auf einen hervorragenden Kundenservice und bieten dir eine einmalige Erfahrung.</p>
+        </div>
+      </div>
+    </div>
+
+    <img src="./images/gestaltungslinie.png" alt="Gestaltungslinie" class="gestaltungslinie">
+
+  </section>
+
+  <section class="cookies" id="cookies">
+    <div class="cookie-container">
+      <h2>Unsere Cookies</h2>
+      <p class="subtitle">Unsere Auswahl an Cookies lässt keine Wünsche offen! Von Klassikern wie dem "ChocoBliss" mit
+        dreifacher Schokolade und dem "VanillaDream" mit einer Prise Vanille bis hin zu exklusiven Kreationen wie dem
+        "CocoMacaroon" mit Kokosnuss haben wir für jeden Geschmack etwas im Angebot. Unsere Cookies werden mit Liebe
+        frisch gebacken und bieten eine willkommene Abwechslung vom Arbeitsalltag. Sie bestehen aus Butter, Zucker,
+        Vanillezucker, einer Prise Salz, Eiern, hochwertiger Schokolade, Mehl und Backpulver, sodass jeder Bissen ein
+        Genuss ist.</p>
+  
+      <div class="cookie-boxes">
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./images/Cookies/EbonyEspresso.png" alt="EbonyEspresso">
+              <p class="title">EbonyEspresso</p>
+            </div>
+  
+            <div class="flip-card-back">
+              <p class="title">EbonyEspresso</p>
+              <p>Zutaten: Dunkle Schokolade, Espressopulver, Mandeln, Vanilleextrakt</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./images/Cookies/LicoriceNoir.png" alt="LicoriceNoir">
+              <p class="title">LicoriceNoir</p>
+            </div>
+  
+            <div class="flip-card-back">
+              <p class="title">LicoriceNoir</p>
+              <p>Zutaten: Süssholzwurzel, dunkle Schokolade, Kakaopulver, Anisextrakt</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./images/Cookies/CherryBlossom.png" alt="CherryBlossom">
+              <p class="title">CherryBlossom</p>
+            </div>
+  
+            <div class="flip-card-back">
+              <p class="title">CherryBlossom</p>
+              <p>Zutaten: Weisse Schokolade, getrocknete Kirschen, Mandeln, Rosenwasser</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <button class="show-all-button" onclick="window.location.href='ueber uns.html'">Alle anzeigen</button>
+  
+    </div>
+  </section>
+  
+
+
+
+
+
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="footer-left">
+      <p>Made by: CookieCollab Yannis und Timo</p>
+    </div>
+
+    <div class="footer-middle">
+      Dies ist ein Schulprojekt und kein realer Online-Shop.
+    </div>
+
+    <div class="footer-icons">
+      <ul class="menu simple">
+        <li><a href="https://twitter.com/explore"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i> </a></li>
+        <li><a href="https://github.com/timohuber05/AL5_Yannis_Timo/tree/main"><i class="fa-brands fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+</body>
+
+
+</html>
