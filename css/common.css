@@ -1,0 +1,208 @@
+/* CSS Code, der für alle Web Pages gleich ist */
+.webpage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+.header {
+  background-color: #0f1c34;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #0f1c34;
+}
+
+.header li a {
+  font-family: "Roboto", Arial, sans-serif;
+  color: white;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #3fa4d5;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  padding: 20px 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 34px;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: block; 
+  padding: 35px 35px;
+  position: relative;
+  user-select: none;
+  float: right; 
+}
+
+
+.header .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: 2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/*Animation - Hilfe von Chatgpt*/
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+@media (min-width: 768px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+/* Animation - ENDE Hilfe von Chatgpt*/
+
+
+/* Footer */ 
+.footer {
+  padding: 10px;
+  background: #0f1c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* Icons */ 
+.fa-twitter,
+.fa-github,
+.fa-instagram {
+  color: white; 
+  font-size: 40px;
+  position: relative;
+  margin: 10px;
+}
+
+@media (max-width: 760px) {
+  .fa-twitter,
+  .fa-github,
+  .fa-instagram {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fa-twitter,
+  .fa-github,
+  .fa-instagram {
+    font-size: 20px;
+  }
+}
+
+
+.footer-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-left{
+  margin-right: 5px;
+}
