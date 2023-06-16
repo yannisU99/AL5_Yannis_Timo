@@ -31,10 +31,10 @@ const jump = () => {
 };
 
 const dieAnimation = () => {
-  dino.style.backgroundImage = "url('/images/game/dino2_dead.png')";
+  dino.style.backgroundImage = "url('./images/game/dino2_dead.png')";
   return new Promise((resolve) =>
     setTimeout(() => {
-      dino.style.backgroundImage = "url('/images/game/dino2.png')";
+      dino.style.backgroundImage = "url('./images/game/dino2.png')";
       resolve();
     }, 500)
   );
