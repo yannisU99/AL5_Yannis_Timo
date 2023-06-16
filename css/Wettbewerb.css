@@ -209,7 +209,7 @@ width: 50%;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 22px;
   font-weight: bold;
-  color: #e6007e;
+  color: #0f1c34;
 }
 
 .points {
@@ -222,7 +222,7 @@ width: 50%;
 #right-box h2 {
   font-family: 'Press Start 2P';
   font-size: 20px;
-  color: #0f1c34;
+  color: #e6007e;
   text-align: center;
   margin-bottom: 40px; 
 }
